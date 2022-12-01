@@ -12,7 +12,7 @@
         if (cache.has(s[i])) {
             // Sliding window. If we have seen the number, move the start pointer
             // to position after the last occurrence.
-            start = Math.max(start,  cache.get(s[i]) + 1);
+            start = Math.max(start, cache.get(s[i]) + 1);
         }
         // Updating the last seen value of the character
         cache.set(s[i], i);
