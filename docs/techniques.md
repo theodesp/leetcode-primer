@@ -52,3 +52,7 @@ A lot of problems require understanding on how to iterate over data structures. 
         // iterate over each key, value using key=entry[0], value=entry[1]
     }
     ```
+
+### 4. Using two pointers to iterate over an array.
+
+A few problems work on arrays and require you to calculate a maximum or minimum value of something. One of the techniques that can be used is to have two pointers one one the start and one on the end of the array. For each loop iteration you either increment the start or decrement the end until the reach each-other.
