@@ -55,4 +55,8 @@ A lot of problems require understanding on how to iterate over data structures. 
 
 ### 4. Using two pointers to iterate over an array.
 
-A few problems work on arrays and require you to calculate a maximum or minimum value of something. One of the techniques that can be used is to have two pointers one one the start and one on the end of the array. For each loop iteration you either increment the start or decrement the end until the reach each-other.
+A few problems work on arrays and require you to calculate a maximum or minimum value of something. One of the techniques that can be used is to have two pointers one one the start and one on the end of the array. For each loop iteration you either increment the start or decrement the end until the reach each-other. If you are operating on an array, try to use two pointers to see if you can find the solution by manipulating them until they cross each other.
+
+### 5. Using sorting to reduce complexity
+
+Sorting is a quick and effortless way to reduce complexity of an expensive algorithm. This works especially good when you have `O(n^3)` or worse brute force variants of a solution. Sorting can also unlock the way to find the most optimal solution to many of the problems. If you are trying to figure out a solution, try to use sorting to see if that simplifies the problem any further.
