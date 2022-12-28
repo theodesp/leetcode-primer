@@ -60,3 +60,7 @@ A few problems work on arrays and require you to calculate a maximum or minimum 
 ### 5. Using sorting to reduce complexity
 
 Sorting is a quick and effortless way to reduce complexity of an expensive algorithm. This works especially good when you have `O(n^3)` or worse brute force variants of a solution. Sorting can also unlock the way to find the most optimal solution to many of the problems. If you are trying to figure out a solution, try to use sorting to see if that simplifies the problem any further.
+
+### 6. Using two pointers slow and fast for linked lists
+
+A few problems work on linked lists you are tasked to access a particular index of the linked list or attempt to detect cycles. One useful technique you want to use is to have two pointers traverse the list with different speeds (often one slow and one fast). This unlocks some interesting ways to solve problems related to linked lists.
