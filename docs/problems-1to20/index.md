@@ -15,4 +15,7 @@
 14. [Longest Common Prefix](./14.LongestCommonPrefix.md)
 15. [Three Sum](./15.3Sum.md)
 16. [Three Sum Closest](./16.3SumClosest.md)
-
+17. [Letter Combinations in Phone Number](./17.LetterCombinationsPhoneNumber.md)
+18. [Four Sum](./18.4Sum.md)
+19. [Remove Nth Node From End of List](./19.RemoveNthNodeFromEndofList.md)
+20. [Valid Parentheses](./20.ValidParentheses.md)
