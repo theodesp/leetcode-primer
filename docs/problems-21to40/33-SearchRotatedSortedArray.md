@@ -65,11 +65,11 @@ This function uses a binary search algorithm to find the target in the given rot
     --8<-- "solutions/33-SearchRotatedSortedArray/SearchRotatedSortedArrayBinarySearch.js"
     `
 
-The time complexity of this function is O(log n) and the space complexity is O(1).
+The time complexity of this function is $O(log n)$ and the space complexity is $O(1)$.
 
-The reason why this function has O(log n) time complexity is because it uses a binary search algorithm. In each iteration, the function eliminates half of the remaining elements by updating the left and right pointers. Since the function does a constant amount of work per iteration, the number of iterations required to find the target is logarithmic in the size of the array.
+The reason why this function has $O(log n)$ time complexity is because it uses a binary search algorithm. In each iteration, the function eliminates half of the remaining elements by updating the left and right pointers. Since the function does a constant amount of work per iteration, the number of iterations required to find the target is logarithmic in the size of the array.
 
-The space complexity is O(1) because the function uses only a constant amount of extra memory to store the left, right, and mid pointers, regardless of the size of the input array.
+The space complexity is $O(1)$ because the function uses only a constant amount of extra memory to store the left, right, and mid pointers, regardless of the size of the input array.
 
 ## Additional Thoughts
 
