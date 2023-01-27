@@ -15,3 +15,7 @@
 34. [Search range in sorted array](./34.SearchRangeArray.md)
 35. [Search insert position](./35.SearchInsertPosition.md)
 36. [Valid Sudoku](./36-ValidSudoku.md)
+37. [Sudoku Solver](./37-SudokuSolver.md)
+38. [Count and Say](./38-CountAndSay.md)
+39. [Combination Sum](./39-CombinationSum.md)
+40. [Combination Sum 2](./40-CombinationSum2.md)
