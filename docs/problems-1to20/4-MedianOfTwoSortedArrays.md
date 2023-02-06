@@ -72,9 +72,9 @@ At some point we will be `median1 === median2` so this would be the final result
 
 The following program shows how to implement this approach:
 
-??? Show "Solution using Brute Force"
+??? Show "Solution using Binary Search"
     ```js title="MedianOfTwoSortedArrays.js"
-    --8<-- "solutions/4-MedianOfTwoSortedArrays/MedianOfTwoSortedArraysBrute.js"
+    --8<-- "solutions/4-MedianOfTwoSortedArrays/MedianOfTwoSortedArraysDivide.js"
     ```
 
 This approach has a time complexity of $O(log(m + n))+c$, since it uses a binary search to find the split point where the two arrays are evenly balanced. The space complexity is $O(1)$, since it does not create any additional data structures.
